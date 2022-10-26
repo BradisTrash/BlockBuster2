@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="rootPane" prefHeight="222.0" prefWidth="395.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginController">
+   <children>
+      <Label contentDisplay="CENTER" layoutY="-1.0" prefHeight="63.0" prefWidth="395.0" text="BlockBuster Reborn Login" textAlignment="CENTER">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <TextField floatText="Username" layoutX="96.0" layoutY="86.0" />
+      <TextField floatText="dlsjflksfs" layoutX="93.0" layoutY="144.0" />
+   </children>
+</AnchorPane>
