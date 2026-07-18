@@ -20,9 +20,9 @@ public class ConnectionClass {
         return connectionClass;
     }
     public Connection getConnection() {
-        String myURL = "jdbc:mysql://puff:3306/bradley-stewart_books?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDateTimeCode=false&serverTimezone=UTC&useSSL=FALSE";
-        String userName = "bradley-stewart";
-        String pw = "Dragons@91";
+        String myURL = "";
+        String userName = "";
+        String pw = "";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
         } catch  (ClassNotFoundException e){
